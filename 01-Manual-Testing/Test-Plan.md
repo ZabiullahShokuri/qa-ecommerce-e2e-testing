@@ -4,44 +4,58 @@
 
 ## 1. Objective
 
-To validate core e-commerce functionalities including authentication, product selection, cart management, and checkout process.
+To validate core e-commerce functionalities including authentication, product browsing, cart management, and checkout process before production release.
+
+---
 
 ## 2. Scope
 
-### In Scope:
+### ✅ In Scope
 
-- Login functionality
+- User login (valid & invalid scenarios)
 - Product listing and sorting
-- Add to cart
+- Add to cart functionality
 - Remove from cart
-- Checkout process
+- Checkout process (information & overview)
 - Logout functionality
 
-### Out of Scope:
+### ❌ Out of Scope
 
 - Performance testing
 - Security testing
 - Database validation
+- Cross-browser testing
+
+---
 
 ## 3. Test Strategy
 
 - Functional manual testing
-- Positive and negative scenarios
-- Regression testing of critical flows
-- Automation coverage for core user journey
+- Positive and negative scenario validation
+- Boundary value testing for form inputs
+- Regression testing for critical user journey
+- Automation coverage for high-priority flows
+
+---
 
 ## 4. Test Environment
 
-- Browser: Chrome (latest)
+- Browser: Chrome (latest stable version)
 - OS: Windows 10
 - Test URL: https://www.saucedemo.com
 
+---
+
 ## 5. Entry Criteria
 
-- Application deployed and accessible
+- Application accessible
 - Test credentials available
+- Test environment stable
+
+---
 
 ## 6. Exit Criteria
 
-- All high severity defects resolved
-- Critical user flows validated successfully
+- All critical and high severity defects resolved
+- Core user journey validated successfully
+- No open blocker issues
